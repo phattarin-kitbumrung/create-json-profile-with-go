@@ -1,0 +1,35 @@
+{
+  "minizymint": [
+    {
+      "name": "MS. Phattarin Kitbumrung",
+      "nickname": "Mint",
+      "birthday": "28 June 1989",
+      "religion": "Catholic",
+      "address": "40 HealthCenter, 578 Bangkae, Bangkok, 10160",
+      "email": "phattarin.kitbumrung@gmail.com",
+      "mobile": "086-8391389",
+      "github": "https://github.com/phattarin-kitbumrung",
+      "education": {
+        "bachelor degree": "B.Sc.(Computer Science)",
+        "master degree": "M.Sc. (Software Engineering)",
+        "university": "King Mongkut’s University of Technology North Bangkok"
+      },
+      "skills": {
+        "operating systems": "Windows, Mac OS, UNIX",
+        "programming language": "JavaScript, PHP, HTML, SQL, Java, Go",
+        "database": "MySQL, MongoDB",
+        "tools":
+          "Visual Studio Code, GitHub Desktop, Postman, Robomongo, Microsoft Visual Studio, Eclipse, Atom"
+      },
+      "knowledge & technology":
+        "NodeJS Framework, Cordova PhoneGap, jQuery Mobile, Google Analytics and App Analytics (iOS platform)",
+      "interested": "Amazon Web Services (AWS) ie. EC2, S3",
+      "worked experiences": {
+        "cooperative education":
+          "Wireless Innovations and Security Laboratory (WIS) National Electronics and Computer Technology Center (NECTEC)",
+        "web developer": "Faculty of Medicine Ramathibodi Hospital",
+        "backend developer": "Hytexts, Finnomena"
+      }
+    }
+  ]
+}
