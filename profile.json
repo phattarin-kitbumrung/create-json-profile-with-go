@@ -16,19 +16,20 @@
       },
       "skills": {
         "operating systems": "Windows, Mac OS, UNIX",
-        "programming language": "JavaScript, PHP, HTML, SQL, Java, Go",
+        "programming language": "JavaScript, Typescript, PHP, HTML5, SQL, GO, Java",
         "database": "MySQL, MongoDB",
         "tools":
-          "Visual Studio Code, GitHub Desktop, Postman, Robomongo, Microsoft Visual Studio, Eclipse, Atom"
+          "Visual Studio Code, GitHub Desktop, Postman, Robomongo, Microsoft Visual Studio, Eclipse, Atom, GitLab, GitScrum"
       },
       "knowledge & technology":
-        "NodeJS Framework, Cordova PhoneGap, jQuery Mobile, Google Analytics and App Analytics (iOS platform)",
-      "interested": "Amazon Web Services (AWS) ie. EC2, S3",
+        "NodeJS Framework, Cordova PhoneGap, jQuery Mobile, Google Analytics and App Analytics (iOS platform), NestJS",
+      "interested": "Amazon Web Services (AWS) ie. EC2, S3, Line Messaging API, Basic Python, Machine Learning, Artificial Intelligence",
       "worked experiences": {
         "cooperative education":
           "Wireless Innovations and Security Laboratory (WIS) National Electronics and Computer Technology Center (NECTEC)",
         "web developer": "Faculty of Medicine Ramathibodi Hospital",
-        "backend developer": "Hytexts, Finnomena"
+        "backend developer": "Hytexts, Finnomena",
+        "programmer": "Thairath"
       }
     }
   ]

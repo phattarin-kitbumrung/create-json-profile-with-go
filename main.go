@@ -45,6 +45,7 @@ type WorkedExperiences struct {
 	CooperativeEducation string `json:"cooperative education"`
 	WebDeveloper string `json:"web developer"`
 	BackendDeveloper string `json:"backend developer"`
+	Programmer string `json:"programmer"`
 }
 
 
@@ -94,5 +95,6 @@ func main() {
 		fmt.Println("Cooperative Education: " + minizymint.Minizymint[i].WorkedExperiences.CooperativeEducation)
 		fmt.Println("Web Developer: " + minizymint.Minizymint[i].WorkedExperiences.WebDeveloper)
 		fmt.Println("Backend Developer: " + minizymint.Minizymint[i].WorkedExperiences.BackendDeveloper)
+		fmt.Println("Programmer: " + minizymint.Minizymint[i].WorkedExperiences.Programmer)
 	}
 }
