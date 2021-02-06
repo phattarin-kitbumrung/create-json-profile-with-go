@@ -7,47 +7,45 @@ import (
 	"os"
 )
 
-
 type Minizymint struct {
 	Profile []Profile `json:"minizymint"`
 }
 
 type Profile struct {
-	Name   string `json:"name"`
-	Nickname   string `json:"nickname"`
-	Birthday string `json:"birthday"`
-	Religion string `json:"religion"`
-	Address string `json:"address"`
-	Email string `json:"email"`
-	Mobile string `json:"mobile"`
-	Github string `json:"github"`
-	Education Education `json:"education"`
-	Skills Skills `json:"skills"`
-	Knowledge string `json:"knowledge & technology"`
-	Interested string `json:"interested"`
+	Name              string            `json:"name"`
+	Nickname          string            `json:"nickname"`
+	Birthday          string            `json:"birthday"`
+	Religion          string            `json:"religion"`
+	Address           string            `json:"address"`
+	Email             string            `json:"email"`
+	Mobile            string            `json:"mobile"`
+	Github            string            `json:"github"`
+	Education         Education         `json:"education"`
+	Skills            Skills            `json:"skills"`
+	Knowledge         string            `json:"knowledge & technology"`
+	Interested        string            `json:"interested"`
 	WorkedExperiences WorkedExperiences `json:"worked experiences"`
 }
 
 type Education struct {
 	BachelorDegree string `json:"bachelor degree"`
-	MasterDegree string `json:"master degree"`
-	University string `json:"university"`
+	MasterDegree   string `json:"master degree"`
+	University     string `json:"university"`
 }
 
 type Skills struct {
-	OperatingSystems string `json:"operating systems"`
+	OperatingSystems    string `json:"operating systems"`
 	ProgrammingLanguage string `json:"programming language"`
-	Database string `json:"database"`
-	Tools string `json:"tools"`
+	Database            string `json:"database"`
+	Tools               string `json:"tools"`
 }
 
 type WorkedExperiences struct {
 	CooperativeEducation string `json:"cooperative education"`
-	WebDeveloper string `json:"web developer"`
-	BackendDeveloper string `json:"backend developer"`
-	Programmer string `json:"programmer"`
+	WebDeveloper         string `json:"web developer"`
+	BackendDeveloper     string `json:"backend developer"`
+	Programmer           string `json:"programmer"`
 }
-
 
 func main() {
 	fmt.Println("***** Welcome to Phattarin Kitbumrung Profile *****")
@@ -84,7 +82,7 @@ func main() {
 		fmt.Println("Worked Experiences >>>")
 		fmt.Println("Cooperative Education: " + minizymint.Profile[i].WorkedExperiences.CooperativeEducation)
 		fmt.Println("Web Developer: " + minizymint.Profile[i].WorkedExperiences.WebDeveloper)
-		fmt.Println("Backend Developer: " + minizymint.Profile[i].WorkedExperiences.BackendDeveloper)
 		fmt.Println("Programmer: " + minizymint.Profile[i].WorkedExperiences.Programmer)
+		fmt.Println("Backend Developer: " + minizymint.Profile[i].WorkedExperiences.BackendDeveloper)
 	}
 }
